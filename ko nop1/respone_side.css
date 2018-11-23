@@ -1,0 +1,49 @@
+body{
+    width:80%;
+    margin: auto;
+    background: yellowgreen;
+    border: 1px solid red;
+}
+#container{
+    width: 80%;
+    margin: 0px auto;
+}
+#container .vuong {
+    width: 30%;
+    height: 225px;
+    border: 1px solid red;
+    background: aqua;
+    float: left;
+    margin:1%;
+    line-height: 225px;
+}
+#container .vuongto{
+    width: 95%;
+    height: 300px;
+    border: 1px solid red;
+    background: blueviolet;
+    float: left;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+@media screen and (max-width: 1024px){
+    #container .vuong{
+        background-color: fuchsia;
+        width: 48%;
+        margin: 0.5%
+    }
+}
+@media screen and (max-width: 768px){
+    #container .vuong{
+        background-color:red;
+        width: 48%;
+        margin: 0.5%
+    }
+}
+@media screen and (max-width: 480px){
+    #container .vuong{
+        background-color: blue;
+        width: 48%;
+        margin: 0.5%
+    }
+}
