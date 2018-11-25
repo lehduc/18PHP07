@@ -1,0 +1,146 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto
+}
+body{
+    background: ghostwhite;
+}
+#container{
+    width: 90%;
+    margin: 0 auto;
+    background: pink;
+    border: 1px solid black;
+    height: auto;
+}
+#header{
+    height: auto;
+    border: 1px solid green;
+    margin:0.01%;
+    width: 100%;
+    text-align: left;
+}
+#brond{
+    height: 70px;
+    border: 1px solid green;
+    margin: 1%;
+    width: 23%;
+    float: left;
+    text-align: center;
+    line-height: 70px;
+}
+#nan{
+    height: 70px;
+    border: 1px solid green;
+    margin: 1%;
+    width: 45%;
+    float: left;
+    text-align: center;
+    line-height: 70px;
+}
+#god{
+    height: 70px;
+    border: 1px solid green;
+    margin: 1%;
+    width: 22%;
+    float: right;
+    text-align: center;
+    line-height: 70px;
+}
+#hero{
+    width: 75%;
+    height:100px;
+    float: left;
+    margin: 0.01%;
+    text-align: center;
+    line-height: 100px;
+}
+#hero .hero1{
+    width: 70%;
+    height: 95px;
+    float: left;
+    text-align: center;
+    line-height: 95px;
+    border: 1px solid green;
+}
+#hero .action{
+    width: 28%;
+    height: 95px;
+    float: right;
+    text-align: center;
+    line-height: 95px;
+    border: 1px solid green
+}
+#ad{
+    width: 23%;
+    height:100px;
+    float: right;
+    margin: 0.01%;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid green;
+} 
+#bodyy{
+    width: 75%;
+    height:300px;
+    float: left;
+    margin: 0.01%;
+    text-align: center;
+    line-height: 300px;
+    border: 1px solid green;
+}   
+#bodyy .future1{
+    width: 30%;
+    height: 260px;
+    float: left;
+    text-align: center;
+    line-height: 260px;
+    border: 1px solid green;
+    margin: 1%;
+}
+#bodyy .future2{
+    width: 63%;
+    height: 260px;
+    float: right;
+    text-align: center;
+    line-height: 260px;
+    border: 1px solid green;
+    margin: 1%;
+}
+#side{
+    width: 23%;
+    height:300px;
+    float: right;
+    margin: 0.01%;
+    text-align: center;
+    line-height: 300px;
+    border: 1px solid green;
+} 
+#side .buder{
+    width: 96%;
+    height:280px;
+    margin: 1%;
+    text-align: center;
+    line-height: 280px;
+    border: 1px solid green;
+}
+#footer{
+    height: 100px;
+    width: 100%;
+    border: 1px solid green;
+    margin: 0.01%;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+@media screen and (max-width: 1280px){
+    #container{
+        width: 48%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:768px){
+    #hero{
+        width: 100%
+    }
+}
+
