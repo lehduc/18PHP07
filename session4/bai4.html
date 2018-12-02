@@ -13,31 +13,41 @@
         <div id="formleft">
                 <div class="email">
                         <label>Địa chỉ email</label><br/>
-                        <input id = "email" type="text" name="email" placeholder="Vui lòng nhập email của bạn" ><br/>
+                        <input id = "email" type="text" name="email" ><br/>
                 </div>
                 <div class="email">
                         <label>Tên</label><br/>
-                        <input id="username" type="text" name="username" placeholder="Vui lòng nhập họ tên bạn"><br/>
+                        <input id="username" type="text" name="username"><br/>
                 </div>
                 <div class="email">
                         <label>Số điện thoại</label><br/>
-                        <input id ="sodienthoai" type="text" name="sodienthoai" placeholder="Xin vui lòng điền số điện thoại của bạn" ><br/>
+                        <input id ="sodienthoai" type="text" name="sodienthoai"  ><br/>
                 </div>
                 <div class="email">
                         <label>Mat khau</label><br/>
-                        <input id = "mk" type="text" name="matkhau" placeholder="Nhập mật khẩu của bạn" ><br/>                        
+                        <input id = "mk" type="password" name="matkhau" ><br/>                        
                 </div>
                 <div class="email">
                         <label>Tỉnh/Thành phố</label><br/>
-                        <input type="text" name="tinhthanh" id="tp/tinh" placeholder="Vui lòng chọn Tỉnh/Thành"><br>                        
+                        <!-- <input type="text" name="tinhthanh" id="tp/tinh" > -->
+                        <select class="tinh">
+                                <option value="1">Hà Nội</option>
+                                <option value="2">Đà Nẵng</option>
+                                <option value="3">Tp.HCM</option>
+                        </select>                   
                 </div>
                 <div class="email">
-                        <label>Gioi thieu</label><br/>
-                        <input id="gioithieu" type="text" name="gioithieu" placeholder="Hay giới thiệu về bản thân"><br>                        
+                        <label>Ngày sinh</label><br/>
+                        <input id="gioithieu" type="date" name="gioithieu" ><br/>                        
                 </div>
                 <div class="email">
                         <label>so thich</label><br/>
-                        <input id="st" type="text" name="phuongxa" placeholder="so thich cua ban"><br>                        
+                        <input id="st" type="text" name="sothich"><br>                        
+                </div>
+                <div class="gioitinh">
+                        <label>giới tính</label><br/>
+                        <input name="gioitinh" type="radio" value="Nam"/>Nam
+                        <input name="gioitinh" type="radio" value="Nữ"/>Nữ
                 </div>
         </div>
         <div class="form3">
@@ -47,3 +57,7 @@
 </div>
 </body>
 </html>
+<p >
+        <label for="Iam">I am</label>
+        
+    </p>

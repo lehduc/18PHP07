@@ -4,7 +4,7 @@ padding: 0;
 }
 #container{
     width: 262px;
-    height: 620px;
+    height: 660px;
     border: 1px solid black;
     margin: 0 auto;
 }
@@ -20,6 +20,13 @@ padding: 0;
 {
     background: yellow;
     color: red;
+}
+.tinh{
+    width: 262px;
+    height: 40px;
+    font-size: 14px;
+    border: 1px solid palevioletred;
+    padding-left: 10px;
 }
 .email input {
     width: 250px;
